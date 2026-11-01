@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>sample</title>
+<style>
+table.csv-table { border-collapse: collapse; margin: 1em 0; font-family: monospace; }
+table.csv-table th, table.csv-table td { border: 1px solid #ccc; padding: 4px 10px; text-align: center; }
+table.csv-table thead th { background: #eef; }
+table.csv-table th[scope="row"] { text-align: left; background: #fafafa; font-family: sans-serif; }
+table.csv-table td.cell-empty { color: #bbb; }
+table.csv-table td.cell-value { font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>状態遷移表</h1>
+<table class="csv-table">
+<thead><tr><th></th><th>0x0001</th><th>0x0002</th><th>0x0003</th><th>0x0004</th><th>0x0005</th><th>0x0006</th><th>0x0007</th><th>0x0008</th><th>0x0009</th></tr></thead>
+<tbody><tr><th scope="row">10秒経過</th><td class="cell-value">0x0002</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-value">0x0005</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-empty">-</td></tr><tr><th scope="row">20秒経過</th><td class="cell-empty">-</td><td class="cell-value">0x0003</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-empty">-</td><td class="cell-value">0x0008</td><td class="cell-empty">-</td><td class="cell-empty">-</td></tr></tbody>
+</table>
+</body>
+</html>

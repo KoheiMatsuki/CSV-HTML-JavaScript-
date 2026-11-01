@@ -1,0 +1,9 @@
+{
+  "name": "mdbuild",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "markdown-it": "^14.1.0"
+  }
+}
